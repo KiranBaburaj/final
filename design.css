@@ -231,7 +231,11 @@ input[type="radio"]{
     max-height: 600px;
     padding: 30px 20px;
 }
-
+.accordion input[type="radio"]:unchecked + label + .content
+{
+    max-height: 0px;
+    padding: 30px 20px;
+}
 .footer
 {
     padding: 50px 15%;
