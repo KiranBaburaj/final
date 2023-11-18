@@ -226,18 +226,14 @@ input[type="radio"]{
     transition: max-height 0.5s, padding 0.5s;
 }
 
-.accordion label:hover{background-color:white;}
+.accordion label:hover{background-color: #777;}
 
 .accordion input[type="radio"]:checked + label + .content
 {
     max-height: 600px;
     padding: 30px 20px;
 }
-.accordion input[type="radio"]:unchecked + label + .content
-{
-    max-height: 0px;
-    padding: 30px 20px;
-}
+
 .footer
 {
     padding: 50px 15%;
