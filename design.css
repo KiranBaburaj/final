@@ -205,7 +205,7 @@ cursor: pointer;
 position: relative;
 }
 
-.accordion label:hover{background-color: #777;}
+.accordion label:hover{background-color: #777777;}
 
 label::after{
     content: '+';
@@ -267,7 +267,7 @@ input[type="radio"]{
     text-decoration: underline color(srgb red green blue);
     display: block;
     
-    color: #777;
+    color: #777777;
     font-size: 14px;
     margin-top: 10px;
 }
